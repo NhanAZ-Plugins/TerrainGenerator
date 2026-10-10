@@ -3,6 +3,7 @@ name: TerrainGenerator
 version: 0.0.2
 main: NhanAZ\TerrainGenerator\Main
 api: 5.0.0
-website: https://github.com/NhanAZ
+website: https://github.com/NhanAZ-Plugins/TerrainGenerator
 author: NhanAZ
+description: Generate spawn terrain for worlds without a safe spawn point
 ...
