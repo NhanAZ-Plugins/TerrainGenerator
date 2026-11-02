@@ -4,11 +4,11 @@ TerrainGenerator loads the worlds found in the server's `worlds` directory. When
 
 ## Requirements and compatibility
 
-- The plugin declares Axolotl-PM API 5.0.0 in [`plugin.yml`](plugin.yml). PHPStan at maximum level passes against Axolotl-PM source revisions 5.0.0 and 5.49.1. Intermediate 5.x releases have not been tested.
+- The plugin declares Axolotl-PM API 5.0.0 in [`plugin.yml`](plugin.yml). PHPStan at maximum level passes against Axolotl-PM source revisions 5.0.0 and 5.51.1. Intermediate 5.x releases have not been tested.
 - PHP 8.1 or newer is required by the Axolotl-PM 5.x baseline.
 - The plugin has no external runtime dependency.
 
-The exact release PHAR has been tested on Axolotl-PM 5.49.1 with an isolated world that initially had no safe spawn point. Connected Bedrock clients and production worlds have not been tested.
+The exact release PHAR has been tested on Axolotl-PM 5.51.1 with an isolated world that initially had no safe spawn point. Connected Bedrock clients and production worlds have not been tested.
 
 ## Installation and world behavior
 
