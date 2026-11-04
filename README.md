@@ -1,6 +1,15 @@
 # TerrainGenerator
 
-TerrainGenerator loads the worlds found in the server's `worlds` directory. When a world has no generated terrain at its spawn point, the plugin schedules spawn terrain generation. This addresses the `Cannot find a safe spawn point in non-generated terrain` error for that world.
+Generate spawn terrain for Axolotl-PM worlds without a safe spawn point
+
+[![CI](https://github.com/NhanAZ-Plugins/TerrainGenerator/actions/workflows/build.yml/badge.svg)](https://github.com/NhanAZ-Plugins/TerrainGenerator/actions/workflows/build.yml)
+[![Latest release](https://img.shields.io/github/v/release/NhanAZ-Plugins/TerrainGenerator)](https://github.com/NhanAZ-Plugins/TerrainGenerator/releases/latest)
+[![License](https://img.shields.io/github/license/NhanAZ-Plugins/TerrainGenerator)](https://github.com/NhanAZ-Plugins/TerrainGenerator/blob/master/LICENSE)
+[![Discord](https://img.shields.io/discord/986553214889517088?label=Discord&logo=discord&logoColor=white&color=5865F2)](https://discord.gg/j2X83ujT6c)
+
+## Overview
+
+This plugin targets the PocketMine-MP and Axolotl-PM API 5 ecosystem and is maintained under [NhanAZ-Plugins](https://github.com/NhanAZ-Plugins).
 
 ## Requirements and compatibility
 
