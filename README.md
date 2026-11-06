@@ -24,9 +24,9 @@ On startup, the plugin loads every world directory that Axolotl-PM recognizes. I
 
 ## Build and verification
 
-The [build workflow](.github/workflows/build.yml) uses [DevTools](https://github.com/NhanAZ/DevTools) to run PHPStan at maximum level, build the plugin PHAR and validate its contents. The workflow pins DevTools and Axolotl-PM source to reviewed commits. An isolated runtime test also checks that an initially unsafe spawn point becomes safe after terrain generation.
+The [build workflow](.github/workflows/build.yml) uses [DevTools](https://github.com/AxolotlBucketLabs/DevTools) to run PHPStan at maximum level, build the plugin PHAR and validate its contents. The workflow pins DevTools and Axolotl-PM source to reviewed commits. An isolated runtime test also checks that an initially unsafe spawn point becomes safe after terrain generation.
 
-For a local build, follow the [DevTools CLI guide](https://github.com/NhanAZ/DevTools/blob/main/docs/cli.md) with this repository as the project directory. The workflow's PHAR validation alone does not prove world generation in a running server.
+For a local build, follow the [DevTools CLI guide](https://github.com/AxolotlBucketLabs/DevTools/blob/main/docs/cli.md) with this repository as the project directory. The workflow's PHAR validation alone does not prove world generation in a running server.
 
 ## Support, attribution and license
 
